@@ -1,7 +1,7 @@
 # Summary
 
 * [导言](README.md)
-* [领域建模](chapter1.md)
+* [领域建模](chapter1-about-ddd.md)
 * [模型之争：贫血 vs 充血](mo-xing-zhi-zheng-ff1a-pin-xie-vs-chong-xie.md)
 * [领域模型之构建块](ling-yu-mo-xing-zhi-gou-jian-kuai.md)
   * [Entity](ling-yu-mo-xing-zhi-gou-jian-kuai/entity.md)
