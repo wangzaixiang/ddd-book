@@ -24,5 +24,7 @@
   * [面向柔性设计](jie-kou-she-ji-yuan-ze/rou-xing-she-ji.md)
   * [Restful风格 vs RPC风格](jie-kou-she-ji-yuan-ze/restfulfeng-ge-vs-rpc-feng-ge.md)
 * [应用函数式编程](ying-yong-han-shu-shi-bian-cheng.md)
+  * [如何学习scala](ying-yong-han-shu-shi-bian-cheng/ru-he-xue-xi-scala.md)
+  * [怎么避免把Scala写成Java？](ying-yong-han-shu-shi-bian-cheng/zen-yao-bi-mian-ba-scala-xie-cheng-java.md)
 * [编程风格](bian-cheng-feng-ge.md)
 
