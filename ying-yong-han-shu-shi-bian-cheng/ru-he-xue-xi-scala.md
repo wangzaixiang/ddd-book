@@ -23,6 +23,7 @@ Scala是复杂的，不过，我们可以先把Scala来做一个更好的Java来
 * 使用 object 来替代 Java 的static。在scala中，没有static,将static的方法、变量定义在 object 中。
 * 使用 trait 来替代 Java interface
 * 使用 Scala的异常处理模式来替代Java的try/catch。
+* Scala中，在类定义中，直接申明构造参数，而无需申明独立的构造方法。
 * 使用 while 来替代传统的循环。（或者for）
 * 使用 `Boolean/Byte/Char/Short/Int/Long/Float/Double`等类型来替代 `boolean/byte/char/short/int/long/float/double` 等基础类型。
 * 使用 `Array[Byte]` 来替代 `byte[]`
