@@ -14,34 +14,9 @@ Scala是JVM上的一门语言，集合了很多的语言特性，结合了OOP、
 
 在网络上，有很多对Scala的复杂性的评价，认为Scala是宇宙中最复杂的语言，在Scala之前，这个语言是C++。 如果一个语言的复杂性超过了C++，那是有多可怕呢？的确，如果论起Scala的复杂性，那可能是恐怖的一面。不过，如果采用了合适的方式来使用Scala，那么Scala也会是很简单的。
 
-### Scala as the better Java
 
-Scala是复杂的，不过，我们可以先把Scala来做一个更好的Java来使用。使用Java的编程思路，但改变为Scala的语法，来替代Java编程。
 
-对于Java程序员来说，转型到使用Scala来进行开发，这是非常重要的一步，可能会不太习惯，但应该可以很快的进行转变，因为，大部分的Java语言结构，在Scala中都有相似的语法。
 
-* 使用 object 来替代 Java 的static。在scala中，没有static,将static的方法、变量定义在 object 中。
-* 使用 trait 来替代 Java interface
-* 使用 Scala的异常处理模式来替代Java的try/catch。
-* Scala中，在类定义中，直接申明构造参数，而无需申明独立的构造方法。
-* 使用 while 来替代传统的循环。（或者for）
-* 使用 `Boolean/Byte/Char/Short/Int/Long/Float/Double`等类型来替代 `boolean/byte/char/short/int/long/float/double` 等基础类型。
-* 使用 `Array[Byte]` 来替代 `byte[]`
-* 使用 match 来替代 Java的 switch。
-* 熟悉 Scala 的替代变量声明、方法定义的语法。
-* Scala中缺少enum, @annotation的申明的支持。如果需要枚举、标注，需要在Java中定义，然后在scala中使用。
 
-大部分的Java语法都可以简单的映射为Scala，这里列出一些需要关注的点：
-
-1. instanceof 与 强制类型转换。
-   ```scala
-   if( obj.isInstanceOf[String] ) {
-      val str = obj.asInstanceOf[String]
-   }
-
-   ```
-2. break. scala中没有break关键字，虽然可以使用`scala.util.control.Breaks`替代，但尽量避免使用。
-3. return的使用。 在scala中尽量避免使用 return 提前从方法中返回。必要的时候采用 if/else 进行处理。
-4. 
 
 
