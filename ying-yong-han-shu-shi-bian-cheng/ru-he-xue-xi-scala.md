@@ -29,6 +29,7 @@ Scala是复杂的，不过，我们可以先把Scala来做一个更好的Java来
 * 使用 `Array[Byte]` 来替代 `byte[]`
 * 使用 match 来替代 Java的 switch。
 * 熟悉 Scala 的替代变量声明、方法定义的语法。
+* Scala中缺少enum, @annotation的申明的支持。如果需要枚举、标注，需要在Java中定义，然后在scala中使用。
 
 大部分的Java语法都可以简单的映射为Scala，这里列出一些需要关注的点：
 
