@@ -20,15 +20,26 @@ Scala是复杂的，不过，我们可以先把Scala来做一个更好的Java来
 
 对于Java程序员来说，转型到使用Scala来进行开发，这是非常重要的一步，可能会不太习惯，但应该可以很快的进行转变，因为，大部分的Java语言结构，在Scala中都有相似的语法。
 
-- 使用 object 来替代 Java 的static。
-- 使用 trait 来替代 Java interface
-- 使用 while 来替代传统的循环。（或者for）
-- 使用 match 来替代 Java的 switch。
-- 熟悉 Scala 的替代变量声明、方法定义的语法。
+* 使用 object 来替代 Java 的static。在scala中，没有static,将static的方法、变量定义在 object 中。
+* 使用 trait 来替代 Java interface
+* 使用 Scala的异常处理模式来替代Java的try/catch。
+* 使用 while 来替代传统的循环。（或者for）
+* 使用 `Boolean/Byte/Char/Short/Int/Long/Float/Double`等类型来替代 `boolean/byte/char/short/int/long/float/double` 等基础类型。
+* 使用 `Array[Byte]` 来替代 `byte[]`
+* 使用 match 来替代 Java的 switch。
+* 熟悉 Scala 的替代变量声明、方法定义的语法。
 
-大部分的Java语法都可以简单的映射 
+大部分的Java语法都可以简单的映射为Scala，这里列出一些需要关注的点：
 
+1. instanceof 与 强制类型转换。
+   ```scala
+   if( obj.isInstanceOf[String] ) {
+      val str = obj.asInstanceOf[String]
+   }
 
-
+   ```
+2. break. scala中没有break关键字，虽然可以使用`scala.util.control.Breaks`替代，但尽量避免使用。
+3. return的使用。 在scala中尽量避免使用 return 提前从方法中返回。必要的时候采用 if/else 进行处理。
+4. 
 
 
