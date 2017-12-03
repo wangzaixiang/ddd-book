@@ -16,5 +16,19 @@ Scala是JVM上的一门语言，集合了很多的语言特性，结合了OOP、
 
 ### Scala as the better Java
 
+Scala是复杂的，不过，我们可以先把Scala来做一个更好的Java来使用。使用Java的编程思路，但改变为Scala的语法，来替代Java编程。
+
+对于Java程序员来说，转型到使用Scala来进行开发，这是非常重要的一步，可能会不太习惯，但应该可以很快的进行转变，因为，大部分的Java语言结构，在Scala中都有相似的语法。
+
+- 使用 object 来替代 Java 的static。
+- 使用 trait 来替代 Java interface
+- 使用 while 来替代传统的循环。（或者for）
+- 使用 match 来替代 Java的 switch。
+- 熟悉 Scala 的替代变量声明、方法定义的语法。
+
+大部分的Java语法都可以简单的映射 
+
+
+
 
 
