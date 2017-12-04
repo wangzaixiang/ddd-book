@@ -28,6 +28,9 @@
   * 在我们的实践中，我们提炼了 package 这个概念，一个package并不向 aggregation 有强聚合约束，在一个package中的所有entity逻辑上是平等的，彼此之间，相互都有一定的约束关系（不变量），当某个entity发生某种变更时，根据不变量约束，其他的的某些entity也需要相应的进行处理，以维持数据的一致性。
   * 每个package中可以包括比 aggregation 更多的实体，而无需担心过于庞大，package 总是Lazy Loading的，仅根据需要装载实体，也不存在严格意义上的root entity。同时，实体之间的关系是通过 Event + EventBus来进行松耦合的。
   
+先贴一个很丑的图。
+![](/assets/ddd-elements.jpeg)
+  
 
 
 
