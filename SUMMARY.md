@@ -2,20 +2,22 @@
 
 * [导言](README.md)
 * [领域建模](chapter1-about-ddd.md)
-* [模型之争：贫血 vs 充血](mo-xing-zhi-zheng-ff1a-pin-xie-vs-chong-xie.md)
-* [领域模型之构建块](ling-yu-mo-xing-zhi-gou-jian-kuai.md)
+  * [领域模型的基础要素](ling-yu-mo-xing-de-ji-chu-yao-su.md)
+  * [贫血 vs 充血](mo-xing-zhi-zheng-ff1a-pin-xie-vs-chong-xie.md)
   * [Entity](ling-yu-mo-xing-zhi-gou-jian-kuai/entity.md)
-  * Vaule Object
-  * Aggregation
-  * Package
-  * Event
-  * Service
-  * EventBus
-  * Command
+  * [Vaule Object](vaule-object.md)
+  * [Invariants](invariants.md)
+  * [Event](event.md)
+  * [Package](package.md)
+  * [Command](command.md)
   * Query
-  * [Message Reciever](ling-yu-mo-xing-zhi-gou-jian-kuai/message-handler.md)
-  * Scheduled Task
   * Invariants
+* [服务构建块](fu-wu-gou-jian-kuai.md)
+  * Service
+  * [Tasks](fu-wu-gou-jian-kuai/tasks.md)
+  * [MQ Receiver](fu-wu-gou-jian-kuai/mq-receiver.md)
+  * EventBus
+  * Data Access
 * [接口设计原则](jie-kou-she-ji-yuan-ze.md)
   * [服务分层](jie-kou-she-ji-yuan-ze/fu-wu-fen-ceng.md)
   * [面向契约设计](jie-kou-she-ji-yuan-ze/mian-xiang-qi-yue-she-ji.md)
